@@ -139,10 +139,10 @@ function showGameOver() {
 function keyPressed() {
 	for (let ship of ships) {
 		if (keyCode == 32) {
-			//ship.isShooting = true;
-			if (frameCount % 2 == 0) {
-				lasers.push(new Laser(ship.pos, ship.heading));
-			}
+			ship.isShooting = true;
+			//if (frameCount % 2 == 0) {
+			lasers.push(new Laser(ship.pos, ship.heading));
+			//}
 		} else if (keyCode == 39) {
 			ship.setRotation(0.1);
 		} else if (keyCode == 37) {
