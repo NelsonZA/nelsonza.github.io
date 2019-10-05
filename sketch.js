@@ -3,7 +3,7 @@ let ships = [];
 let scalar = 2;
 let asteroids = [];
 let lasers = [];
-let totalAsteroids = 5;
+let totalAsteroids = 7;
 let isGameOver = false;
 
 function setup() {
