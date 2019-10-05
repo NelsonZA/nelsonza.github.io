@@ -41,18 +41,18 @@ class Ship {
 		this.frontShip.x = float(0 + this.pos.x);
 		this.frontShip.y = float(-this.r + this.pos.y);
 
-		if (this.shootCoolDownTimer > 0) {
-			this.shootCoolDownTimer -= 0.2;
-		}
+		// if (this.shootCoolDownTimer > 0) {
+		// 	this.shootCoolDownTimer -= 0.2;
+		// }
 
-		if (this.shootCoolDownTimer < 0) {
-			this.shootCoolDownTimer = 0;
-		}
+		// if (this.shootCoolDownTimer < 0) {
+		// 	this.shootCoolDownTimer = 0;
+		// }
 
-		if (this.isShooting) {
-			this.shootCoolDownTimer = this.shootCoolDown;
-			this.isShooting = false;
-		}
+		// if (this.isShooting) {
+		// 	this.shootCoolDownTimer = this.shootCoolDown;
+		// 	this.isShooting = false;
+		// }
 	}
 
 	show() {
